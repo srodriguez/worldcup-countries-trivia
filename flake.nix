@@ -20,7 +20,7 @@
       {
         packages.default = pkgs.stdenv.mkDerivation {
           pname = "worldcup-country-trivia";
-          version = "1.0.0";
+          version = "0.1.0";
           src = ./.;
           nativeBuildInputs = [ pkgs.mdbook ];
           buildPhase = "mdbook build";
