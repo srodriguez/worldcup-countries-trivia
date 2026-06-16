@@ -13,4 +13,5 @@
 **Scoring goal: 8/10 per set earns the prize.**
 
 Choose your page:
+- [Study Guide](study-guide.md)
 - [Practice Quiz](practice-quiz.md)

@@ -25,7 +25,11 @@
    <!-- [Quiz & Answers](spain/quiz-answers.md) -->
 
 - [🏴󠁧󠁢󠁥󠁮󠁧󠁿 England](england/README.md)
+  - [Study Guide](england/study-guide.md)
   - [Practice Quiz](england/practice-quiz.md)
+  <!-- - [Quiz & Answers](england/quiz-answers.md) -->
 
 - [🇧🇷 Brasil](brasil/README.md)
+  - [Study Guide](brasil/study-guide.md)
   - [Practice Quiz](brasil/practice-quiz.md)
+  <!-- - [Quiz & Answers](brasil/quiz-answers.md) -->
