@@ -1,6 +1,6 @@
 
 {
-  description = "Python dev environment with uv";
+  description = "Worldcup trivia website";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -18,6 +18,14 @@
         python = pkgs.python311; # change if needed
       in
       {
+        packages.default = pkgs.stdenv.mkDerivation {
+          pname = "worldcup-country-trivia";
+          version = "1.0.0";
+          src = ./.;
+          nativeBuildInputs = [ pkgs.mdbook ];
+          buildPhase = "mdbook build";
+          installPhase = "cp -r book $out";
+        };
         devShells.default = pkgs.mkShell {
           buildInputs = [
             python
