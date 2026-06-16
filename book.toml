@@ -1,0 +1,11 @@
+[book]
+title = "World Cup Countries Trivia"
+language = "en"
+src = "src"
+authors = ["Rodriguez Family"]
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = ""
+no-section-label = true
